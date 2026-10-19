@@ -1,0 +1,27 @@
+{
+  "name": "evidence-ledger",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Append-only ledger for fingerprint-bound verification results.",
+  "main": "evidence-ledger.js",
+  "exports": {
+    ".": "./evidence-ledger.js"
+  },
+  "files": [
+    "evidence-ledger.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "evidence-ledger"
+  ],
+  "license": "MIT"
+}
